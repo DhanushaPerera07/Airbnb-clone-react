@@ -1,5 +1,5 @@
 
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
 
             {/* Footer */}
 
-        {/* Search pge */}
-        {/* Header */}
-            {/* ..... */}
+      {/* Search pge */}
+      {/* Header */}
+          {/* ..... */}
     </div>
   );
 }
