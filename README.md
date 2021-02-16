@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# About this project
+
+This project is a airbnb clone project which has deleloped using React.
+
+# Development Related Details
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
