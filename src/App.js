@@ -3,28 +3,34 @@ import './css/App.css';
 import Header from './app/Header';
 import Home from './app/Home';
 import Footer from './app/Footer';
+import SearchPage from './app/SearchPage';
+
+// using ES6 modules
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 function App() {
   return (
 
     // BEM
     <div className="app">
-      <Header />
-      <Home/>
-      <Footer />
-      {/* Home */}
-            {/* Header */}
+      <Router>
+        <Header />
 
-            {/* Banner */}
-                {/* search */}
+        {/* Conditionally render the page */}
+        <Switch>
+          <Route path="/search">
+            {/* /search */}
+            <SearchPage />
+          </Route>
 
-            {/* Cards */}
+          <Route path="/">
+            {/* / */}
+            <Home />
+          </Route>
+        </Switch>
 
-            {/* Footer */}
-
-      {/* Search pge */}
-      {/* Header */}
-          {/* ..... */}
+        <Footer />
+      </Router>
     </div>
   );
 }
