@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/Card.css";
 
 /* card - props */
 function Card({src, title, description, price}) {
