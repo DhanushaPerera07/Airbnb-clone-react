@@ -1,12 +1,14 @@
 
 import './css/App.css';
+import Home from './app/Home';
 
 function App() {
   return (
 
     // BEM
     <div className="app">
-      <h1>Hello, let's build the airbnb clone</h1>
+      <Home/>
+      
       {/* Home */}
             {/* Header */}
 
