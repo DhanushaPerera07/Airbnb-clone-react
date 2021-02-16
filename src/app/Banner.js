@@ -1,9 +1,10 @@
 import React from 'react';
+import "../css/Banner.css";
 
 function Banner() {
     return (
         <div className="banner">
-            <h1>Hello I am the banner</h1>
+            
         </div>
     )
 }
