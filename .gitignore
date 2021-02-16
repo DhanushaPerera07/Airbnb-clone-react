@@ -12,6 +12,9 @@
 !.vscode/extensions.json
 .history/*
 
+#node
+package-lock.json
+
 # dependencies
 /node_modules
 /.pnp
