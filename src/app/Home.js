@@ -6,6 +6,12 @@ function Home() {
     return (
         <div className="home">
             <Banner />
+
+            {/* Section */}
+            <div className="home__section">
+                {/*  Cards  */}
+                
+            </div>
         </div>
     )
 }
