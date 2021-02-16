@@ -4,6 +4,8 @@
     position: relative;
 }
 
+/*  Banner Info styles */
+
 .banner__info {
     background-color: black;
     color: white;
@@ -30,4 +32,18 @@
 
 .banner__info > h5 {
     margin-top: 10px;
+}
+
+/* Banner Search styles */
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
 }
