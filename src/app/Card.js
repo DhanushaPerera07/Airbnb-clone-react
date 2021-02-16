@@ -4,14 +4,15 @@ import "../css/Card.css";
 /* card - props */
 function Card({src, title, description, price}) {
     return (
-        <div className="card">
-            <h1>I am card</h1>
-            {/* img */}
-            {/* titile */}
-            {/* decription */}
-            {/* price */}
+      <div className="card">
+        <img src={src} alt="card img"/>
+        <div className="card__info">
+          <h2>{title}</h2>
+          <h4>{description}</h4>
+          <h3>{price}</h3>
         </div>
-    )
+      </div>
+    );
 }
 
 export default Card
