@@ -5,8 +5,8 @@ import "../css/Card.css";
 function Card({src, title, description, price}) {
     return (
         <div className="card">
+            <h1>I am card</h1>
             {/* img */}
-
             {/* titile */}
             {/* decription */}
             {/* price */}
