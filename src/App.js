@@ -2,6 +2,7 @@
 import './css/App.css';
 import Header from './app/Header';
 import Home from './app/Home';
+import Footer from './app/Footer';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
     <div className="app">
       <Header />
       <Home/>
-
+      <Footer />
       {/* Home */}
             {/* Header */}
 
