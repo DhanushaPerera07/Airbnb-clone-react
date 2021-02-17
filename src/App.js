@@ -7,12 +7,15 @@ import SearchPage from './app/SearchPage';
 
 // using ES6 modules
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
-
     // BEM
     <div className="app">
+      <Helmet>
+        <title>Airbnb Clone | By Dhanusha</title>
+      </Helmet>
       <Router>
         <Header />
 
